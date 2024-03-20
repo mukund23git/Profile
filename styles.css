@@ -505,14 +505,9 @@ ul li{
     width: 21rem;
     background-color: white;
     border-radius: 0.6rem;
-    overflow: hidden;
+    /* overflow: hidden; */
     cursor: pointer;
     transition: 0.25s;
-}
-
-.cards:hover p{
-    filter: blur(150%);
-    color: white;
 }
 
 .cards p{
@@ -520,12 +515,15 @@ ul li{
     font-size: 1.4rem;
     width: 14rem;
     position: relative;
-    left: 8rem;
-    top: 4.4rem;
-    color: rgba(255, 255, 255, 0);
+    left: 11rem;
+    top: 7rem;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    width: 10rem;
+    padding: 5px;
+    border-radius: 10px;
     animation: 0.25s;
 }
-
 
 
 /* -----------------photography------------------- */
